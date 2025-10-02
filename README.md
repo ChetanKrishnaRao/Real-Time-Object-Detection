@@ -125,16 +125,18 @@ The YOLOv8s model is trained on the COCO dataset and can detect the following 80
 ## Setup Instructions
 
 1. **Clone or Download the Project**:
-
-   - Ensure you have Python 3.8+ installed.
-
-2. **Install Dependencies**:
+   
+   ```
+   git clone https://github.com/ChetanKrishnaRao/Real-Time-Object-Detection.git
+   ```
+   
+3. **Install Dependencies**:
 
    ```
    pip install -r requirements.txt
    ```
 
-3. **Download Model Weights**:
+4. **Download Model Weights**:
 
    ```
    python download_model.py
@@ -142,7 +144,7 @@ The YOLOv8s model is trained on the COCO dataset and can detect the following 80
 
    This downloads the YOLOv8s model (~22MB) to the `models/` directory. Run this once with internet access.
 
-4. **Run the Application**:
+5. **Run the Application**:
    ```
    python main.py
    ```
